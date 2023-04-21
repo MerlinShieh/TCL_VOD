@@ -1,0 +1,91 @@
+2023-04-21 19:14:47.541 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:47.542 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , (<__main__.APP object at 0x000001868C1C28C0>,)
+2023-04-21 19:14:47.542 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:47.890 | DEBUG    | __main__:pid:39 - exceResult: ('', False)
+2023-04-21 19:14:47.891 | DEBUG    | __main__:pid:45 - pidList: []
+2023-04-21 19:14:47.891 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , []
+2023-04-21 19:14:47.891 | DEBUG    | __main__:exportGenData:163 - runTime: 10
+2023-04-21 19:14:47.891 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:47.892 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , ('day',)
+2023-04-21 19:14:47.892 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:47.892 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , 2023-04-21
+2023-04-21 19:14:47.896 | DEBUG    | __main__:exportGenData:168 - 写入表头成功， ../log/genData_2023-04-21.csv
+2023-04-21 19:14:47.896 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:47.897 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , ()
+2023-04-21 19:14:47.897 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:47.897 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , 2023-04-21 19:14:47
+2023-04-21 19:14:48.048 | DEBUG    | __main__:meminfo:54 - exccmd adb shell dumpsys meminfo com.sankuai.meituan | findstr TOTAL, excresult ('', False)
+2023-04-21 19:14:48.048 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:48.048 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , (<__main__.APP object at 0x000001868C1C28C0>,)
+2023-04-21 19:14:48.048 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:48.282 | DEBUG    | __main__:pid:39 - exceResult: ('', False)
+2023-04-21 19:14:48.282 | DEBUG    | __main__:pid:45 - pidList: []
+2023-04-21 19:14:48.282 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , []
+2023-04-21 19:14:48.283 | DEBUG    | __main__:meminfo:68 - 获取应用数据异常，可能是进程被kill， 应用pid: []
+2023-04-21 19:14:48.283 | DEBUG    | __main__:meminfo:69 - 默认返回数据为0
+2023-04-21 19:14:48.724 | DEBUG    | __main__:cpu:114 - excResult: ('', False)
+2023-04-21 19:14:48.725 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:48.725 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , (<__main__.APP object at 0x000001868C1C28C0>,)
+2023-04-21 19:14:48.725 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:49.100 | DEBUG    | __main__:pid:39 - exceResult: ('', False)
+2023-04-21 19:14:49.100 | DEBUG    | __main__:pid:45 - pidList: []
+2023-04-21 19:14:49.100 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , []
+2023-04-21 19:14:49.100 | DEBUG    | __main__:cpu:123 - 获取应用数据异常，可能是进程被kill， 应用pid: []
+2023-04-21 19:14:49.100 | DEBUG    | __main__:cpu:124 - 默认返回数据为0
+2023-04-21 19:14:49.490 | DEBUG    | __main__:iow:78 - excResult: ('800%cpu  25%user   0%nice  54%sys 700%idle   0%iow  18%irq   4%sirq   0%host\r\r\n', True)
+2023-04-21 19:14:49.491 | INFO     | __main__:iow:83 - iow: 0
+2023-04-21 19:14:49.491 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:49.491 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , ('DAYTIME',)
+2023-04-21 19:14:49.491 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:49.491 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , 2023-04-21-19-14-49
+2023-04-21 19:14:49.492 | INFO     | tools.screenCap:Win32src:49 - 窗口为com.sankuai.meituan， 保存路径为screencap， 图片名称为2023-04-21-19-14-49
+2023-04-21 19:14:49.507 | INFO     | tools.screenCap:Win32src:56 - 保存图片 D:\data\Project\Python\TCL_VOD\screencap\com.sankuai.meituan_2023-04-21-19-14-49.jpg
+2023-04-21 19:14:49.524 | INFO     | __main__:exportGenData:176 - data: [('2023-04-21 19:14:47', 0, 0, 0)]
+2023-04-21 19:14:51.530 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:51.530 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , ()
+2023-04-21 19:14:51.531 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:51.531 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , 2023-04-21 19:14:51
+2023-04-21 19:14:51.597 | DEBUG    | __main__:meminfo:54 - exccmd adb shell dumpsys meminfo com.sankuai.meituan | findstr TOTAL, excresult ('', False)
+2023-04-21 19:14:51.597 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:51.598 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , (<__main__.APP object at 0x000001868C1C28C0>,)
+2023-04-21 19:14:51.598 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:51.970 | DEBUG    | __main__:pid:39 - exceResult: ('', False)
+2023-04-21 19:14:51.971 | DEBUG    | __main__:pid:45 - pidList: []
+2023-04-21 19:14:51.971 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , []
+2023-04-21 19:14:51.971 | DEBUG    | __main__:meminfo:68 - 获取应用数据异常，可能是进程被kill， 应用pid: []
+2023-04-21 19:14:51.971 | DEBUG    | __main__:meminfo:69 - 默认返回数据为0
+2023-04-21 19:14:52.374 | DEBUG    | __main__:cpu:114 - excResult: ('', False)
+2023-04-21 19:14:52.375 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:52.375 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , (<__main__.APP object at 0x000001868C1C28C0>,)
+2023-04-21 19:14:52.375 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:52.497 | DEBUG    | __main__:pid:39 - exceResult: ('', False)
+2023-04-21 19:14:52.497 | DEBUG    | __main__:pid:45 - pidList: []
+2023-04-21 19:14:52.498 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , []
+2023-04-21 19:14:52.498 | DEBUG    | __main__:cpu:123 - 获取应用数据异常，可能是进程被kill， 应用pid: []
+2023-04-21 19:14:52.498 | DEBUG    | __main__:cpu:124 - 默认返回数据为0
+2023-04-21 19:14:52.895 | DEBUG    | __main__:iow:78 - excResult: ('800%cpu 271%user  14%nice 300%sys 182%idle   4%iow  25%irq   4%sirq   0%host\r\r\n', True)
+2023-04-21 19:14:52.895 | INFO     | __main__:iow:83 - iow: 4
+2023-04-21 19:14:52.896 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:52.896 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , ('DAYTIME',)
+2023-04-21 19:14:52.896 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:52.896 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , 2023-04-21-19-14-52
+2023-04-21 19:14:52.896 | INFO     | tools.screenCap:Win32src:49 - 窗口为com.sankuai.meituan， 保存路径为screencap， 图片名称为2023-04-21-19-14-52
+2023-04-21 19:14:52.908 | INFO     | tools.screenCap:Win32src:56 - 保存图片 D:\data\Project\Python\TCL_VOD\screencap\com.sankuai.meituan_2023-04-21-19-14-52.jpg
+2023-04-21 19:14:52.921 | INFO     | __main__:exportGenData:176 - data: [('2023-04-21 19:14:51', 0, 0, 4)]
+2023-04-21 19:14:54.930 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:54.930 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , ()
+2023-04-21 19:14:54.930 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:54.931 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , 2023-04-21 19:14:54
+2023-04-21 19:14:55.187 | DEBUG    | __main__:meminfo:54 - exccmd adb shell dumpsys meminfo com.sankuai.meituan | findstr TOTAL, excresult ('        TOTAL   291798   227456    27700      220   486144   217238   154531    62706\r\n           TOTAL PSS:   291798            TOTAL RSS:   486144       TOTAL SWAP PSS:      220\r\n', True)
+2023-04-21 19:14:55.188 | INFO     | __main__:meminfo:65 - memory: 291798
+2023-04-21 19:14:55.598 | DEBUG    | __main__:cpu:114 - excResult: ('20687  0.0 com.sankuai.meituan:widgetProvider\r\n20524  0.0 com.sankuai.meituan:sandboxed_process0\r\n20266 21.4 com.sankuai.meituan:miniApp0\r\n19920  203 com.sankuai.meituan\r\n', True)
+2023-04-21 19:14:55.599 | INFO     | __main__:cpu:120 - cpu: 0.0
+2023-04-21 19:14:55.996 | DEBUG    | __main__:iow:78 - excResult: ('800%cpu 182%user  25%nice 139%sys 404%idle  11%iow  25%irq  14%sirq   0%host\r\r\n', True)
+2023-04-21 19:14:55.996 | INFO     | __main__:iow:83 - iow: 11
+2023-04-21 19:14:55.997 | INFO     | tools._log:_wrap:29 - 当前模块 __main__
+2023-04-21 19:14:55.997 | INFO     | tools._log:_wrap:30 - 全部args参数参数信息 , ('DAYTIME',)
+2023-04-21 19:14:55.997 | INFO     | tools._log:_wrap:31 - 全部kwargs参数信息 , {}
+2023-04-21 19:14:55.997 | DEBUG    | tools._log:_wrap:33 - 当前函数执行结果 , 2023-04-21-19-14-55
+2023-04-21 19:14:55.997 | INFO     | tools.screenCap:Win32src:49 - 窗口为com.sankuai.meituan， 保存路径为screencap， 图片名称为2023-04-21-19-14-55
+2023-04-21 19:14:56.005 | INFO     | tools.screenCap:Win32src:56 - 保存图片 D:\data\Project\Python\TCL_VOD\screencap\com.sankuai.meituan_2023-04-21-19-14-55.jpg
+2023-04-21 19:14:56.019 | INFO     | __main__:exportGenData:176 - data: [('2023-04-21 19:14:54', 291798, 0.0, 11)]
