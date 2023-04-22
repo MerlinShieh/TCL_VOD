@@ -155,9 +155,10 @@ class APP:
         return True
 
     # @logger("获取性能数据")
-    def exportGenData(self, runTime=10 * 60 * 60, waitTime = 2):
+    def exportGenData(self, runTime=10 * 60 * 60, waitTime=2):
         """
         :param runTime: 秒时长，就是运行多少个小时
+        :waitTime: 执行间隔
         :return:
         """
         log.debug('runTime: {}', runTime)
@@ -182,10 +183,10 @@ class APP:
 if __name__ == '__main__':
     a = APP(packagename='com.sankuai.meituan')
     # 启动投屏工具
-    theardScrcpy = excecmd.theardScrcpy(title=a.scrcpy_title, isSave=True)
+    theardScrcpy = excecmd.theardScrcpy(title=a.scrcpy_title, isSave=False)
     # a = APP()
     try:
-        a.exportGenData(runTime=1 * 10)
+        a.exportGenData(runTime=1 * 60)
     except Exception as e:
         log.error(e)
     finally:
