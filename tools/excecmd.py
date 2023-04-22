@@ -34,7 +34,7 @@ def __task_scrcpy(serial=None, title='scrcpy_Android', size='1400:3200:0:0', m=2
 def theardScrcpy(serial=None, title='scrcpy_Android', size='1400:3200:0:0', m=2048, b='4M', isSave=False):
     t = threading.Thread(target=__task_scrcpy, args=[serial, title, size, m, b, isSave])
     # 设置为守护线程，主线程结束时守护线程随之结束
-    t.daemon = True
+    # t.daemon = True
     t.start()
     return t
 
