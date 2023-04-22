@@ -53,6 +53,7 @@ def Win32src(hwndTitle, path=r'screencap', imgName=str(int(time.time()))):
     screen = QApplication.primaryScreen()
     img = screen.grabWindow(hwnd).toImage()
     _img_path = os.path.join(BASE_DIR, path, hwndTitle + '_' + imgName + '.jpg')
+    # _img_path = os.path.join(BASE_DIR, path, imgName + '.jpg')
     log.info('保存图片 {}', _img_path)
     img.save(_img_path)
     return _img_path
@@ -72,7 +73,7 @@ if __name__ == '__main__':
     from pprint import pprint
 
     pprint(hwnd_title_list())
-    Win32src('22041211AC')
+    Win32src(r'原神')
 
     # _path = os.path.join(BASE_DIR, 'screencap')
     # _count = 1
